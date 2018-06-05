@@ -1,0 +1,13 @@
+# config for jpwrp
+#
+# jpwrp requires a server.crt and server.key to be placed in a directory
+# called certs. jpwrp uses these certificates to serve https
+#
+# JssIP is the only address jpwrp will forward data from
+# change it to the IP that you wish to receive webhooks from
+JssIP		=	"192.168.1.100"
+
+# webhook to port mapping
+[WebhookToPort]
+handle_webhook1	=	17104
+handle_webhook2	=	17105
